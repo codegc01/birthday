@@ -4,7 +4,7 @@ const giftbox = document.getElementById('merrywrap');
 const canvasC = document.getElementById('c');
 
 const config = {
-  birthdate: 'Jan 29, 2020',
+  birthdate: 'aug 28, 2021',
   name: 'Darlene'
 };
 
@@ -48,7 +48,7 @@ x = setInterval(function() {
     hw = w / 2, // half-width
     hh = h / 2,
     opts = {
-      strings: ['HAPPY', 'BIRTHDAY!', config.name],
+      strings: ['HAPPY', 'BIRTHDAY!', Shivanya],
       charSize: 30,
       charSpacing: 35,
       lineHeight: 40,
